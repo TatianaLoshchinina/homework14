@@ -9,7 +9,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Offer implements Comparable<Offer> {
+public class Offer implements Comparable <Offer> {
     private int id;
     private int price;
     private String from;
@@ -21,4 +21,3 @@ public class Offer implements Comparable<Offer> {
         return price - o.price;
     }
 }
-
